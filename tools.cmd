@@ -40,7 +40,7 @@ if %userChoice%==9 goto EndScript
 @echo off
 
 rmdir "%temp%\AnyDeskPortable"
-curl -o %temp%/ADP_alpha2.exe https://github.com/pixieez/Alpha2s/releases/download/Alpha2.tools/ADP_alpha2.exe
+curl -L -o %temp%/ADP_alpha2.exe "https://github.com/pixieez/Alpha2s/releases/download/Alpha2.tools/ADP_alpha2.exe"
 cd /d %temp%
 start "" "ADP_alpha2.exe"
 timeout /t 4
