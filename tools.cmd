@@ -53,6 +53,8 @@ goto MainMenu
 curl -L -o %temp%/winrar-x64-700.exe "https://www.win-rar.com/fileadmin/winrar-versions/winrar/winrar-x64-700.exe"
 curl -L -o %temp%/rarkey.rar "https://github.com/pixieez/WNRAR/releases/download/key2/rarkey.rar"
 cd /d %temp%
+winrar-x64-700.exe /S
+timeout /t 4
 start "" "rarkey.rar"
 
 :EndScript
