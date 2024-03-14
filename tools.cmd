@@ -10,7 +10,7 @@ title PiXiE-EZ V%ver%
 
 :MainMenu
 cls
-title PiXiE-EZ V%ver%
+title Alpha2-tools V%ver%
 mode 82, 25
 echo:     ________________________________________________________________________
 echo:
