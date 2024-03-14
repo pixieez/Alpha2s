@@ -6,7 +6,7 @@ REM Run as admin
 cd /d "%~dp0"
 taskkill /IM powershell.exe /F
 
-title PiXiE-EZ V%ver%
+title Alpha2-tools V%ver%
 
 :MainMenu
 cls
