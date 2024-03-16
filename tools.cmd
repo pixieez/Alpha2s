@@ -28,7 +28,7 @@ echo:         [0] Exit
 echo:     ________________________________________________________________________ 
 echo:                                   2024 ^| Alpha2
 echo.
-echo:     Enter a menu option in the Keyboard [1,2,f,0] :
+echo:     Enter a menu option in the Keyboard [1,2,8,0] :
 choice /C:123456780 /N
 set "userChoice=%errorlevel%"
 
