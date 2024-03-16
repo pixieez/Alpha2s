@@ -23,13 +23,13 @@ echo:         [1] AnyDesk
 echo:         [2] WinRAR
 echo:         ________________________________________________________________
 echo.
-echo:         [f] Create Alpha2 folder
+echo:         [8] Create Alpha2 folder
 echo:         [0] Exit
 echo:     ________________________________________________________________________ 
 echo:                                   2024 ^| Alpha2
 echo.
 echo:     Enter a menu option in the Keyboard [1,2,f,0] :
-choice /C:123456780f /N
+choice /C:123456780 /N
 set "userChoice=%errorlevel%"
 
 if %userChoice%==1 goto tools1
@@ -37,7 +37,7 @@ if %userChoice%==2 goto tools2
 if %userChoice%==3 goto tools3
 if %userChoice%==4 goto tools4
 if %userChoice%==9 goto EndScript
-if %userChoice%==f goto Alpha2Folder
+if %userChoice%==8 goto Alpha2Folder
 
 :tools1
 @echo off
